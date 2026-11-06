@@ -192,7 +192,15 @@ def test_update_same_title_and_artist_is_allowed(client, created_artwork):
         "year",
         "medium",
         "museum",
-        "image_url"
+        "image_url",
+    ],
+    ids=[
+        "missing-title",
+        "missing-artist",
+        "missing-year",
+        "missing-medium",
+        "missing-museum",
+        "missing-image-url",
     ],
 )
 
